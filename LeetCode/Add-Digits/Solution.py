@@ -1,0 +1,6 @@
+1class Solution:
+2    def addDigits(self, num: int) -> int:
+3        if num==0:
+4            return 0
+5        return (num-1)%9+1
+6        
