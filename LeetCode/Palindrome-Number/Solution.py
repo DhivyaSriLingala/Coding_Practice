@@ -1,5 +1,6 @@
 1class Solution:
 2    def isPalindrome(self, x: int) -> bool:
+  #with converting to string
 3        x=str(x)
 4        n=len(x)
 5        for i in range(0,n//2):
